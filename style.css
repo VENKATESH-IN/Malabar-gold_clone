@@ -29,44 +29,113 @@ margin: 0px;
     display: flex;
 }
 .header-content-logo{
-    width: 24%;
+    width: 32%;
     padding-left: 20px;
 }
 #h_main_logo_img{
     width: 215px;
     height:62px;
 }
-
-
 .header-content-quick_access_container{
-    border: 2px solid black;
     width: 100%;
     height: 70px;
     display: flex;
 }
-
 .header-content-quick_access-left{
-     border: 2px solid white;
-     height: 70px;
+     padding: 10px 70px 0px 10px;
+     height: 60px;
      width: 60%;
 }
+
+.header-content-quick_access-left button{
+ background-color: rgb(153, 0, 87) ;
+ background-image: url(img-assets/icons8-search-50.png) ;
+ background-size:cover;
+ width: 25px;
+ height: 10px;
+ border: 0;
+ padding-top: 25px;
+position: relative;
+top: 10px;
+left: 30px;
+}
+.header-content-quick_access-left input{
+    background-color:rgb(153, 0, 87);
+    width: 90%;
+   border: 0;
+}
+.header-content-quick_access-left input::placeholder {
+color: white;
+font-size: 15px;
+}
 .header-content-quick_access-right{
-    border: 2px dotted yellow;
     height: 70px;
     width: 40%;
 }
 .header-content-quick_access-right-content{
     display: flex;
+    padding-top: 10px;
 }
-.header-content-quick_access-left button{
-    background-color: rgb(153, 0, 87) ;
- background-image: url(img-assets/icons8-search-50.png) ;
- background-size: 5-0px 50px;
- width: 50px;
- height: 50px;
+.header-content-quick_access-right-content-stores{
+ flex: 1;
+ height: 60px;
+ justify-items: center;
+}
+.header-content-quick_access-right-content-country{
+    flex: 1;
+     height: 60px;
+ justify-items: center;
+}
+.header-content-quick_access-right-content-profile{
+    flex: 1;
+     height: 60px;
+ justify-items: center;
+}
+.header-content-quick_access-right-content-wishlist{
+    flex: 1;
+     height: 60px;
+ justify-items: center;
+}
+.header-content-quick_access-right-content-cart{
+    flex: 1;
+     height: 60px;
+ justify-items: center;
+}
+.quick_access_img{
+width: 20px;
+height: 20px;
+}
+.quick_access_text{
+    margin: 0;
+}
+.quick_access_text_anchor{
+  color: white;
+  margin-top: 20px;
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+}
+/* --------------- */
+.header-navigation{
+    display: flex;
+}
+.a{
+padding: 0px 10px;
+}
+.h-n-anchor{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 15px;
 }
 
-.header-content-quick_access-left span{
-    width: 10px;
-    height: 10px;
+/* --------------------------- */
+.slideshow-cointainer{
+    height: 480px;
+}
+.slideshow-box img{
+    width: 100%;
+}
+#slideshow-image{
+          
 }
